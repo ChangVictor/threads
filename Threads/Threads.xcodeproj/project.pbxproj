@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		95AB993D2BCEFD4D00305158 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */; };
 		95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993E2BCEFD4D00305158 /* ContentView.swift */; };
-		95AB99412BCEFD5000305158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB99402BCEFD5000305158 /* Assets.xcassets */; };
 		95AB99442BCEFD5000305158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB99432BCEFD5000305158 /* Preview Assets.xcassets */; };
 		95AB994E2BCEFD5100305158 /* ThreadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB994D2BCEFD5100305158 /* ThreadsTests.swift */; };
 		95AB99582BCEFD5100305158 /* ThreadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB99572BCEFD5100305158 /* ThreadsUITests.swift */; };
 		95AB995A2BCEFD5100305158 /* ThreadsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB99592BCEFD5100305158 /* ThreadsUITestsLaunchTests.swift */; };
 		95AB99742BCEFE3C00305158 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB99732BCEFE3C00305158 /* LoginView.swift */; };
+		95AB99762BCEFFC300305158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB99752BCEFFC300305158 /* Assets.xcassets */; };
+		95AB99782BD66F1B00305158 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB99772BD66F1B00305158 /* RegistrationView.swift */; };
+		95AB997B2BD670C000305158 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB997A2BD670C000305158 /* ThreadsTextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		95AB99392BCEFD4D00305158 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		95AB993E2BCEFD4D00305158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		95AB99402BCEFD5000305158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95AB99432BCEFD5000305158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95AB99492BCEFD5100305158 /* ThreadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AB994D2BCEFD5100305158 /* ThreadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTests.swift; sourceTree = "<group>"; };
@@ -46,6 +47,9 @@
 		95AB99572BCEFD5100305158 /* ThreadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsUITests.swift; sourceTree = "<group>"; };
 		95AB99592BCEFD5100305158 /* ThreadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		95AB99732BCEFE3C00305158 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		95AB99752BCEFFC300305158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/Threads/Threads/Assets.xcassets; sourceTree = "<group>"; };
+		95AB99772BD66F1B00305158 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		95AB997A2BD670C000305158 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,8 @@
 				95AB996E2BCEFDDA00305158 /* Services */,
 				95AB996F2BCEFDE300305158 /* Utilities */,
 				95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */,
-				95AB99402BCEFD5000305158 /* Assets.xcassets */,
 				95AB99422BCEFD5000305158 /* Preview Content */,
+				95AB99752BCEFFC300305158 /* Assets.xcassets */,
 			);
 			path = Threads;
 			sourceTree = "<group>";
@@ -174,6 +178,7 @@
 		95AB996F2BCEFDE300305158 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				95AB99792BD670AE00305158 /* ViewModifiers */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -198,8 +203,17 @@
 			isa = PBXGroup;
 			children = (
 				95AB99732BCEFE3C00305158 /* LoginView.swift */,
+				95AB99772BD66F1B00305158 /* RegistrationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		95AB99792BD670AE00305158 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				95AB997A2BD670C000305158 /* ThreadsTextFieldModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,8 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AB99762BCEFFC300305158 /* Assets.xcassets in Resources */,
 				95AB99442BCEFD5000305158 /* Preview Assets.xcassets in Resources */,
-				95AB99412BCEFD5000305158 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +348,9 @@
 			files = (
 				95AB99742BCEFE3C00305158 /* LoginView.swift in Sources */,
 				95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */,
+				95AB997B2BD670C000305158 /* ThreadsTextFieldModifier.swift in Sources */,
 				95AB993D2BCEFD4D00305158 /* ThreadsApp.swift in Sources */,
+				95AB99782BD66F1B00305158 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
