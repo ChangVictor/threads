@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		957446242BE64747001AE96B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957446232BE64747001AE96B /* EditProfileView.swift */; };
 		95AB993D2BCEFD4D00305158 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */; };
 		95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993E2BCEFD4D00305158 /* ContentView.swift */; };
 		95AB99442BCEFD5000305158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB99432BCEFD5000305158 /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		957446232BE64747001AE96B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		95AB99392BCEFD4D00305158 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		95AB993E2BCEFD4D00305158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		957446212BE64728001AE96B /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				957446222BE64739001AE96B /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		957446222BE64739001AE96B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957446232BE64747001AE96B /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		95AB99302BCEFD4D00305158 = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +323,7 @@
 			children = (
 				95AB999A2BDD31AE00305158 /* Model */,
 				95AB998E2BD6782D00305158 /* View */,
+				957446212BE64728001AE96B /* EditProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -482,6 +501,7 @@
 			files = (
 				95AB99822BD6775C00305158 /* FeedView.swift in Sources */,
 				95AB99742BCEFE3C00305158 /* LoginView.swift in Sources */,
+				957446242BE64747001AE96B /* EditProfileView.swift in Sources */,
 				95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */,
 				95AB99942BD6E8A200305158 /* ThreadCell.swift in Sources */,
 				95AB998C2BD6780E00305158 /* ActivityView.swift in Sources */,

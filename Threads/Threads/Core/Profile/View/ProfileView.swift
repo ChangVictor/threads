@@ -31,7 +31,8 @@ struct ProfileView: View {
                             Text("charles_lecrerc")
                                 .font(.subheadline)
                         }
-                        Text("Formula 1")
+                        
+                        Text("Formula 1 driver")
                             .font(.footnote)
                         
                         Text("2 followers")
@@ -46,6 +47,7 @@ struct ProfileView: View {
                 
                 // follow button
                 Button {
+                    
                 } label: {
                     Text("Follow")
                         .font(.subheadline)
@@ -56,35 +58,32 @@ struct ProfileView: View {
                         .cornerRadius(8)
                 }
 
-            }
             
             // user content list view
-            VStack {
-                HStack {
-                    ForEach(ProfileThreadFilter.allCases) { filter in
-                        VStack {
-                            Text(filter.title)
-                                .font(.subheadline)
-                                .fontWeight(selectedFilter == filter ? .semibold : .regular)
-                            
-                            if selectedFilter == filter {
-                                print("\(selectedFilter) - \(filter)")
-                            }
+                VStack {
+                    HStack {
+                        ForEach(ProfileThreadFilter.allCases) { filter in
+                            VStack {
+                                Text(filter.title)
+                                    .font(.subheadline)
+                                    .fontWeight(selectedFilter == filter ? .semibold : .regular)
                                 
-                            if selectedFilter == filter {
-                                Rectangle()
-                                    .foregroundColor(.black)
-                                    .frame(width: filterBarWidth, height: 1)
-                                    .matchedGeometryEffect(id: "item", in: animation)
-                            } else {
-                                Rectangle()
-                                    .foregroundColor(.clear)
-                                    .frame(width: filterBarWidth, height: 1)
+                                if selectedFilter == filter {
+                                    Rectangle()
+                                        .foregroundColor(.black)
+                                        .frame(width: filterBarWidth, height: 1)
+                                        .matchedGeometryEffect(id: "item", in: animation)
+                                } else {
+                                    Rectangle()
+                                        .foregroundColor(.clear)
+                                        .frame(width: filterBarWidth, height: 1)
+                                }
+                                
                             }
-                        }
-                        .onTapGesture {
-                            withAnimation(.spring()) {
-                                selectedFilter == filter
+                            .onTapGesture {
+                                withAnimation(.spring()) {
+                                    selectedFilter = filter
+                                }
                             }
                         }
                     }

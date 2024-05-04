@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ProfileThreadFilter: Int, CaseIterable, Identifiable {
+enum ProfileThreadFilter: Int, CaseIterable, Identifiable, Equatable {
     case threads
     case replies
     
