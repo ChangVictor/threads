@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953AE98E2BEB77B700C3A55A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AE98D2BEB77B700C3A55A /* ContentViewModel.swift */; };
+		953AE9902BEB7DE700C3A55A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AE98F2BEB7DE700C3A55A /* LoginViewModel.swift */; };
 		957446242BE64747001AE96B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957446232BE64747001AE96B /* EditProfileView.swift */; };
 		957446262BE7AC59001AE96B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 957446252BE7AC59001AE96B /* GoogleService-Info.plist */; };
 		957446292BE7AD4F001AE96B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 957446282BE7AD4F001AE96B /* FirebaseAuth */; };
 		9574462B2BE7AD4F001AE96B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9574462A2BE7AD4F001AE96B /* FirebaseFirestore */; };
 		9574462D2BE7AD4F001AE96B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9574462C2BE7AD4F001AE96B /* FirebaseFirestoreSwift */; };
 		9574462F2BE7AD4F001AE96B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9574462E2BE7AD4F001AE96B /* FirebaseStorage */; };
+		95A459F52BE7E242008ED7F8 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A459F42BE7E242008ED7F8 /* RegistrationViewModel.swift */; };
+		95A459F72BE7E4BE008ED7F8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A459F62BE7E4BE008ED7F8 /* AuthService.swift */; };
 		95AB993D2BCEFD4D00305158 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */; };
 		95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB993E2BCEFD4D00305158 /* ContentView.swift */; };
 		95AB99442BCEFD5000305158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB99432BCEFD5000305158 /* Preview Assets.xcassets */; };
@@ -53,8 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		953AE98D2BEB77B700C3A55A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		953AE98F2BEB7DE700C3A55A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		957446232BE64747001AE96B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		957446252BE7AC59001AE96B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95A459F42BE7E242008ED7F8 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		95A459F62BE7E4BE008ED7F8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		95AB99392BCEFD4D00305158 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
 		95AB993E2BCEFD4D00305158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +117,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		953AE98B2BEB779800C3A55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		953AE98C2BEB77AB00C3A55A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				953AE98D2BEB77B700C3A55A /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		957446212BE64728001AE96B /* EditProfile */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +146,15 @@
 				957446232BE64747001AE96B /* EditProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		95A459F22BE7E210008ED7F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				953AE98F2BEB7DE700C3A55A /* LoginViewModel.swift */,
+				95A459F42BE7E242008ED7F8 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		95AB99302BCEFD4D00305158 = {
@@ -153,9 +185,7 @@
 				95AB996B2BCEFDC300305158 /* Core */,
 				95AB996C2BCEFDC900305158 /* Extensions */,
 				95AB996D2BCEFDD200305158 /* Models */,
-				95AB996E2BCEFDDA00305158 /* Services */,
 				95AB996F2BCEFDE300305158 /* Utilities */,
-				95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */,
 				95AB99422BCEFD5000305158 /* Preview Content */,
 				95AB99752BCEFFC300305158 /* Assets.xcassets */,
 			);
@@ -190,6 +220,7 @@
 		95AB99692BCEFD8400305158 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				95AB993C2BCEFD4D00305158 /* ThreadsApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -227,6 +258,7 @@
 		95AB996E2BCEFDDA00305158 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				95A459F62BE7E4BE008ED7F8 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -242,6 +274,8 @@
 		95AB99702BCEFE1700305158 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				95AB996E2BCEFDDA00305158 /* Services */,
+				95A459F22BE7E210008ED7F8 /* ViewModel */,
 				95AB99722BCEFE3000305158 /* Views */,
 			);
 			path = Authentication;
@@ -250,6 +284,8 @@
 		95AB99712BCEFE2100305158 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				953AE98C2BEB77AB00C3A55A /* ViewModel */,
+				953AE98B2BEB779800C3A55A /* View */,
 				95AB993E2BCEFD4D00305158 /* ContentView.swift */,
 			);
 			path = Root;
@@ -521,15 +557,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AB99822BD6775C00305158 /* FeedView.swift in Sources */,
+				95A459F52BE7E242008ED7F8 /* RegistrationViewModel.swift in Sources */,
 				95AB99742BCEFE3C00305158 /* LoginView.swift in Sources */,
+				95A459F72BE7E4BE008ED7F8 /* AuthService.swift in Sources */,
 				957446242BE64747001AE96B /* EditProfileView.swift in Sources */,
 				95AB993F2BCEFD4D00305158 /* ContentView.swift in Sources */,
 				95AB99942BD6E8A200305158 /* ThreadCell.swift in Sources */,
 				95AB998C2BD6780E00305158 /* ActivityView.swift in Sources */,
+				953AE9902BEB7DE700C3A55A /* LoginViewModel.swift in Sources */,
 				95AB99972BD8503C00305158 /* CircularProfileImageView.swift in Sources */,
 				95AB99992BD850AB00305158 /* UserCell.swift in Sources */,
 				95AB99882BD677E400305158 /* CreateThreadView.swift in Sources */,
 				95AB999C2BDD31BB00305158 /* ProfileThreadFilter.swift in Sources */,
+				953AE98E2BEB77B700C3A55A /* ContentViewModel.swift in Sources */,
 				95AB997E2BD6754F00305158 /* ThreadsTabView.swift in Sources */,
 				95AB997B2BD670C000305158 /* ThreadsTextFieldModifier.swift in Sources */,
 				95AB993D2BCEFD4D00305158 /* ThreadsApp.swift in Sources */,
