@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CE7AB475-0A11-40CE-8D71-A07FA9E1857A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E050884-0B77-4440-AF44-5BD3CA3C2488"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29D308BA-9D5C-4E71-A017-8232FF121A3A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29D308BA-9D5C-4E71-A017-8232FF121A3A - 9210ef78b54ed17a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.ProfileViewModel.__allocating_init() -&gt; Threads.ProfileViewModel"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "29D308BA-9D5C-4E71-A017-8232FF121A3A - 55d921029f696645"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.ProfileViewModel.init() -&gt; Threads.ProfileViewModel"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C371DA77-163C-474C-9ED7-3589EA4E5278"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setupSubscribers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C8844F6-3B30-4F9A-9FD6-D99AAB0BDBF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "setupSubscribers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88A0187F-5F5E-4EE1-A3A3-2E18B07E1258"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Authentication/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88A0187F-5F5E-4EE1-A3A3-2E18B07E1258 - 5958e358a8a14c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.UserService.__allocating_init() -&gt; Threads.UserService"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "88A0187F-5F5E-4EE1-A3A3-2E18B07E1258 - eb5db31a989b7a78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.UserService.init() -&gt; Threads.UserService"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EE85CEF-1239-477F-B346-DA8BF247F5DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Authentication/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchCurrentUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3EE85CEF-1239-477F-B346-DA8BF247F5DE - 3628cd9ddbc1618c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.UserService.fetchCurrentUser() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "242">
+               </Location>
+               <Location
+                  uuid = "3EE85CEF-1239-477F-B346-DA8BF247F5DE - ffa609a6ef04bcb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Threads.UserService.fetchCurrentUser() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "3EE85CEF-1239-477F-B346-DA8BF247F5DE - 3628cd9ddbc1618c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.UserService.fetchCurrentUser() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "3EE85CEF-1239-477F-B346-DA8BF247F5DE - 3628cd9ddbc1618c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.UserService.fetchCurrentUser() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Authentication/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "169">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD1D8DAD-0146-4F83-A8DB-4362039DE45E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Authentication/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchCurrentUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B926F8BC-61F8-42B1-8229-F395C33D29BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Authentication/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchCurrentUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
