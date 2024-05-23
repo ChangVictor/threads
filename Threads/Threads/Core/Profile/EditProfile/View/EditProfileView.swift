@@ -13,7 +13,7 @@ struct EditProfileView: View {
     @State private var link = ""
     @State private var isPrivateProfileOn = false
     @Environment(\.dismiss) var dismiss
-    @EnvironmentObject var viewModel: CurrentUserProfileViewModel
+    @StateObject var viewModel = EditProfileViewModel()
     
     var body: some View {
         NavigationStack {
