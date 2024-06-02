@@ -258,5 +258,348 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F903BC6C-C92F-4425-8A99-76854503FF93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/EditProfile/View/EditProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F903BC6C-C92F-4425-8A99-76854503FF93 - 3f1922520a6ba6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Threads.EditProfileView.body.getter : some"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "F903BC6C-C92F-4425-8A99-76854503FF93 - 2c3e3dcb4fda27c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Threads.EditProfileView.body.getter : some"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "F903BC6C-C92F-4425-8A99-76854503FF93 - d2639a6c7cf03261"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Threads.EditProfileView.body.getter : some"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "F903BC6C-C92F-4425-8A99-76854503FF93 - ba2a9fb0d22b7667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Threads.EditProfileView.body.getter : some"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBB7235F-0279-4183-84E7-93F6FC3B8A6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateProfileImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBB7235F-0279-4183-84E7-93F6FC3B8A6F - a48bfd8514986c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "EBB7235F-0279-4183-84E7-93F6FC3B8A6F - 68aa49a178817ceb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "updateProfileImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - 30a1786722ea994a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - afd9054071f9d65d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - f8bdaa5cecf3b525"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - f8bdaa5cecf3b544"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - 24b6453fcbc02747"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - 4088dc12d6d4d127"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "FD5F854D-1741-4685-B1CD-DD84C1F7E089 - 4088dc12d6d4d146"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Threads.EditProfileViewModel.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Core/Profile/EditProfile/ViewModel/EditProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52D032C5-A76C-4C10-B64A-F328BAE31B80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateUserProfileImage(withImageUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52D032C5-A76C-4C10-B64A-F328BAE31B80 - 6c2e841d0f48a41f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Threads.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "52D032C5-A76C-4C10-B64A-F328BAE31B80 - 922a659a616b554e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Threads.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "52D032C5-A76C-4C10-B64A-F328BAE31B80 - 1305908b01337811"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Threads.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "52D032C5-A76C-4C10-B64A-F328BAE31B80 - d77616be1af95614"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Threads.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "Threads"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vchang/Documents/Projects/Threads/threads/Threads/Threads/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A146956A-0AC1-4888-8653-1CB60954243B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Threads/Services/ImageUploader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "uploadImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
